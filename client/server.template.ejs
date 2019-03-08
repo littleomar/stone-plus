@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <%%- meta %>
+  <%%- title %>
+  <%%- link %>
+  <%%- style %>
+</head>
+
+<style id="renderStyle">
+  <%%- renderStyle %>
+</style>
+<body>
+<div id="app"><%%- appString %></div>
+<script>
+  window.__INIT__STATE__ = <%%- initalState %>
+</script>
+</body>
+</html>

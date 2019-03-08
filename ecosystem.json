@@ -1,0 +1,21 @@
+{
+  "apps": [
+    {
+      "name": "learn",
+      "script": "./server/index.js",
+      "env_production": {
+        "NODE_ENV": "production"
+      }
+    }
+  ],
+  "deploy": {
+    "production": {
+      "user": "root",
+      "host": "47.95.215.162",
+      "repo": "git@littleomar.com:littleomar/react-server-render.git",
+      "ref": "origin/master",
+      "path": "C:\\Users\\Administrator\\Desktop",
+      "post-deploy": "npm install && npm run deploy && pm2 startOrRestart ecosystem.json --env production"
+    }
+  }
+}
