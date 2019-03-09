@@ -14,7 +14,7 @@
       "host": "47.95.215.162",
       "repo": "git@github.com:littleomar/stone-plus.git",
       "ref": "origin/master",
-      "path": "/home/www",
+      "path": "C:\\Users\\Administrator\\Desktop",
       "post-deploy": "yarn install && npm run deploy && pm2 startOrRestart ecosystem.json --env production"
     }
   }
