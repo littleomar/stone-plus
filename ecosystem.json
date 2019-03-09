@@ -10,7 +10,7 @@
   ],
   "deploy": {
     "production": {
-      "user": "root",
+      "user": "Administrator",
       "host": "47.95.215.162",
       "repo": "git@github.com:littleomar/stone-plus.git",
       "ref": "origin/master",
